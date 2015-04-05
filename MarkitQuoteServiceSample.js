@@ -111,12 +111,6 @@ $("#search_btn").click(function() {
         }
       }
       table_str += '</table>';
-
-      /*
-      * The following commented out line should be equivalent to the working line
-      * right below it... But it does not. Dont know why..
-      * $("#result_panel").innerHTML = table_str;
-      */
       document.getElementById("result_panel").innerHTML = table_str;
 
       /**
